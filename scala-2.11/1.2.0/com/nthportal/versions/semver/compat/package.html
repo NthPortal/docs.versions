@@ -1,0 +1,142 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>compat - com.nthportal.versions.semver.compat</title>
+          <meta name="description" content="compat - com.nthportal.versions.semver.compat" />
+          <meta name="keywords" content="compat com.nthportal.versions.semver.compat" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'com.nthportal.versions.semver.compat.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="com">com</a>.<a href="../../../package.html" class="extype" name="com.nthportal">nthportal</a>.<a href="../../package.html" class="extype" name="com.nthportal.versions">versions</a>.<a href="../package.html" class="extype" name="com.nthportal.versions.semver">semver</a></p>
+        <h1>compat</h1><span class="permalink">
+      <a href="../../../../../index.html#com.nthportal.versions.semver.compat.package" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">compat</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="com.nthportal.versions.semver.compat.SemVerFactory" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SemVerFactory[E]extendsProductwithSerializable"></a>
+      <a id="SemVerFactory[E]:SemVerFactory[E]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="SemVerFactory.html"><span class="name">SemVerFactory</span></a><span class="tparams">[<span name="E">E</span>]</span><span class="params">(<span name="factory">factory: <a href="../../v3/compat/VersionFactory.html" class="extype" name="com.nthportal.versions.v3.compat.VersionFactory">VersionFactory</a>[<span class="extype" name="com.nthportal.versions.semver.compat.SemVerFactory.E">E</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.nthportal.versions.semver.compat.package@SemVerFactory[E]extendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A factory for for parsing version strings into SemVer versions.</p><div class="fullcomment"><div class="comment cmt"><p>A factory for for parsing version strings into SemVer versions.
+</p></div><dl class="paramcmts block"><dt class="tparam">E</dt><dd class="cmt"><p>the type of the versions' extension</p></dd><dt class="param">factory</dt><dd class="cmt"><p>the <span class="extype" name="VersionFactory">VersionFactory</span> with which to parse the version
+               and its extension</p></dd></dl></div>
+    </li><li name="com.nthportal.versions.semver.compat.SemVerFullFactory" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SemVerFullFactory[E,M]extendsProductwithSerializable"></a>
+      <a id="SemVerFullFactory[E,M]:SemVerFullFactory[E,M]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="SemVerFullFactory.html"><span class="name">SemVerFullFactory</span></a><span class="tparams">[<span name="E">E</span>, <span name="M">M</span>]</span><span class="params">(<span name="factory">factory: <a href="../../v3/compat/VersionFactory.html" class="extype" name="com.nthportal.versions.v3.compat.VersionFactory">VersionFactory</a>[<span class="extype" name="com.nthportal.versions.semver.compat.SemVerFullFactory.E">E</span>]</span>, <span name="parser">parser: <a href="../BuildMetadata$$Parser.html" class="extype" name="com.nthportal.versions.semver.BuildMetadata.Parser">Parser</a>[<span class="extype" name="com.nthportal.versions.semver.compat.SemVerFullFactory.M">M</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#com.nthportal.versions.semver.compat.package@SemVerFullFactory[E,M]extendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A factory for for parsing version strings into SemVer versions
+with build metadata.</p><div class="fullcomment"><div class="comment cmt"><p>A factory for for parsing version strings into SemVer versions
+with build metadata.
+</p></div><dl class="paramcmts block"><dt class="tparam">E</dt><dd class="cmt"><p>the type of the versions' extension</p></dd><dt class="tparam">M</dt><dd class="cmt"><p>the type of the build metadata</p></dd><dt class="param">factory</dt><dd class="cmt"><p>the <span class="extype" name="VersionFactory">VersionFactory</span> with which to parse the version
+               and its extension</p></dd><dt class="param">parser</dt><dd class="cmt"><p>the <a href="../BuildMetadata$$Parser.html" class="extype" name="com.nthportal.versions.semver.BuildMetadata.Parser">BuildMetadata.Parser</a> with which to parse the build
+               metadata</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
