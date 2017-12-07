@@ -1,4 +1,6 @@
-<head><title>versions - Scala 2.11</title></head>
+# versions - Scala 2.11
+
+[<=](..)
 
 [latest](1.2.1)
 
