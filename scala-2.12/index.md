@@ -1,6 +1,6 @@
-# versions - Scala 2.12
-
 [<=](..)
+
+# versions - Scala 2.12
 
 [latest](1.2.1)
 
